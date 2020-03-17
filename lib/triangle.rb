@@ -1,3 +1,4 @@
 class Triangle
-  # write code here
+# write code here
+attr_accessor :length
 end
