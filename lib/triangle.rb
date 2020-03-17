@@ -19,9 +19,9 @@ def kind
     return :scalene
   end
   
-  class TriangleError < StandardError 
 end
 
+class TriangleError < StandardError 
 end
 
 
