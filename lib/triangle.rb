@@ -9,10 +9,15 @@ def initialize (length1, length2, length3)
 end
 
 def kind
-  if @length1 == @lenth2 && @length1 == @length3 
+  if @length1 == @length2 && @length1 == @length3 
     return :equilateral
-  elsif @length1 == @lenght2 || @length1 == @length3 || @length2 == @length3 
+  elsif @length1 == @length2 || @length1 == @length3 || @length2 == @length3 
     return :isoceles 
-  elsif 
+  elsif !(@length1 == @length2) && !(@length1 == @length2) && !(@length2 == @length3) 
+    return :scalene
+  end
+end
+
+
   
 end
