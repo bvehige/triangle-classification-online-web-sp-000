@@ -15,6 +15,8 @@ def kind
   
   elsif (@length1 + @length2 < @length3) || (@length1 + @length3 < @length2) || (@length2 + @length3 < @length1) 
     raise TriangleError
+    
+  else
   
   if @length1 == @length2 && @length1 == @length3 
     return :equilateral
@@ -26,6 +28,7 @@ def kind
     return :scalene
   
   end
+end
   
 end
 
