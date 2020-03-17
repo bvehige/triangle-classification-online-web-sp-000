@@ -16,6 +16,10 @@ def kind
   elsif !(@length1 == @length2) && !(@length1 == @length2) && !(@length2 == @length3) 
     return :scalene
   end
+  
+  class TriangleError < StandardError 
+end
+
 end
 
 
