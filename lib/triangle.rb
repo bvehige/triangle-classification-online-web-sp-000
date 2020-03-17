@@ -9,6 +9,9 @@ def initialize (length1, length2, length3)
 end
 
 def kind
+  
+  
+  
   if @length1 == @length2 && @length1 == @length3 
     return :equilateral
   
